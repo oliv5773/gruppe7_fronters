@@ -1,0 +1,141 @@
+  /*************Header****************/
+  .menu {
+      position: absolute;
+      top: 1rem;
+      left: 0.5rem;
+      width: 3rem;
+  }
+
+  .kea {
+      position: absolute;
+      top: 0.5rem;
+      left: 7rem;
+      width: 8rem;
+  }
+
+  .notifikationer {
+      position: absolute;
+      top: 1.5rem;
+      left: 18rem;
+      width: 1rem;
+  }
+
+  .profil {
+      position: absolute;
+      top: 0.rem;
+      left: 20rem;
+      width: 3rem;
+  }
+
+  .container1 {
+      background-color: #EA847C;
+      width: 100%;
+      height: 50px;
+  }
+
+  /*************Header****************/
+
+  /*************bokse og skema****************/
+
+
+  .vl {
+      border-left: 2px solid black;
+      height: 2rem;
+      position: absolute;
+      top: 40vw;
+      left: 13.8vw;
+  }
+
+  .vl1 {
+      border-left: 2px solid black;
+      height: 2rem;
+      position: absolute;
+      top: 40vw;
+      left: 61.6vw;
+  }
+
+  .vl2 {
+
+      border-left: 2px solid black;
+      height: 2rem;
+      position: absolute;
+      top: 40vw;
+      left: 97.4vw
+  }
+
+  .semester {
+
+      text-align: center;
+  }
+
+  .forlob {
+
+      text-align: center;
+      align-content: space-between;
+      font-size: 12px;
+  }
+
+  .int {
+      position: absolute;
+      left: 4vw;
+      top: 38vw;
+  }
+
+  .grund {
+      position: absolute;
+      left: 14.5vw;
+      top: 38vw;
+  }
+
+  .ind {
+      position: absolute;
+      left: 62.5vw;
+      top: 38vw;
+  }
+
+  table {
+
+      border-spacing: 1rem
+  }
+
+
+  .oversigt {
+
+      justify-content: center;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-bottom: 0rem;
+      margin-top: 0rem;
+  }
+
+
+  td {
+
+      border-spacing: 1rem;
+      border: 1px solid #4c374b;
+      text-align: left;
+      height: 2rem;
+      padding: 1rem;
+      background-color: #EA847C;
+
+
+  }
+
+  .semester_bokse {
+
+      display: flex;
+      justify-content: center;
+      background-color: #EA847C;
+  }
+
+
+  .box {
+      width: 2.5rem;
+      height: 2.5rem;
+      border: 0.5px solid green;
+      padding: 0.5rem;
+      text-align: center;
+
+  }
+
+  /*************bokse og skema****************/
