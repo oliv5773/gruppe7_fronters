@@ -38,6 +38,10 @@
   /*************bokse og skema****************/
 
 
+  .container {
+      position: relative;
+  }
+
   .vl {
       border-left: 2px solid black;
       height: 2rem;
@@ -91,6 +95,7 @@
       position: absolute;
       left: 62.5vw;
       top: 38vw;
+      float: top;
   }
 
   table {
