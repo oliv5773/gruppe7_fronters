@@ -1,0 +1,66 @@
+.menu {
+    position: absolute;
+    top: 1rem;
+    left: 0.5rem;
+    width: 3rem;
+}
+
+.kea {
+    position: absolute;
+    top: 0.5rem;
+    left: 7rem;
+    width: 8rem;
+}
+
+.notifikationer {
+    position: absolute;
+    top: 1.5rem;
+    left: 18rem;
+    width: 1rem;
+}
+
+.profil {
+    position: absolute;
+    top: 0.rem;
+    left: 20rem;
+    width: 3rem;
+}
+
+.container1 {
+    background-color: #EA847C;
+    width: 100%;
+    height: 50px;
+}
+
+/**************Header*******************/
+
+p {
+    font-family: arial;
+    text-align: center;
+    height: 50px;
+    width:
+}
+
+
+.bar {
+    border: 1px solid #4C374B;
+    height: 30px;
+}
+
+.bar1 {
+    background-color: #4C374B;
+    height: 30px;
+    width: 75%;
+}
+
+.procent {
+    position: absolute;
+    top: 32.5vw;
+    left: 85vw;
+}
+
+.text {
+    position: absolute;
+    top: 25vw;
+    left: vw;
+}
