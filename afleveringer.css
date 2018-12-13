@@ -9,6 +9,7 @@ html {
 
 header {
     min-width: 350px;
+    font-family: arial;
 }
 
 .container1 {
@@ -17,6 +18,7 @@ header {
     height: 4em;
     position: fixed;
     z-index: 20;
+    font-family: arial;
 
 }
 
@@ -58,6 +60,7 @@ header {
 
 .overskrift {
     padding-top: 12%;
+    font-family: arial;
 }
 
 /**************Header*******************/
@@ -72,6 +75,7 @@ p {
 .bar {
     border: 1px solid #4C374B;
     height: 30px;
+    font-family: arial;
 }
 
 .bar1 {
@@ -79,12 +83,14 @@ p {
     height: 30px;
     width: 75%;
     display: inline-block;
+    font-family: arial;
 }
 
 .procent {
     display: inline-block;
     height: 30px;
     width: 23%;
+    font-family: arial;
 }
 
 .text {}
@@ -94,6 +100,7 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    font-family: arial;
 }
 
 td,
@@ -102,14 +109,17 @@ th {
     text-align: left;
     padding: 8px;
     background-color: #D6CDD5;
+    font-family: arial;
 }
 
 .link {
     text-decoration: underline;
+    font-family: arial;
 }
 
 .procenttegn {
     padding: 0px;
+    font-family: arial;
 }
 
 
