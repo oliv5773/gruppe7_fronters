@@ -17,12 +17,33 @@ body {
     align-items: center;
 
     margin-left: 15vw;
+
+}
+
+.boksned {
+    font-family: arial;
+
+    width: 70vw;
+    height: 15vw;
+    border: 1px solid black;
+    margin-bottom: 13px;
+    text-align: left;
+    line-height: 15vw;
+    background-color: #D6CDD5;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+    margin-left: 15vw;
+    margin-top: 9vw;
+
 }
 
 .billede {
     width: 30px;
     height: 30px;
 }
+
 
 h1 {
     font-size: 1.5em;
@@ -76,4 +97,46 @@ h1 {
     background-color: #EA847C;
     width: 100%;
     height: 4em;
+
+
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#content {
+
+    color: transparent;
+}
+
+
+.expandable {
+    background: #fff;
+    overflow: hidden;
+
+    transition: all .5s ease-in-out;
+    line-height: 0;
+    padding: 0 1em;
+    color: transparent;
+    font-family: arial;
+    width: 70vw;
+    margin-left: 15vw;
+
+
+
+}
+
+.expandable:target {
+    line-height: 1.5;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: black;
+    font-family: arial;
+
+
+
 }
