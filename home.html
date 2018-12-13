@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,37 @@
     <link rel="stylesheet" href="home.css">
 </head>
 
+<!-- NAVIGATION -->
+
+<div id="myNav" class="overlay">
+
+    <img src="images/kea1red.png" alt="KEA logo rød" class="kea">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/menuclose.png" alt="Luk menu" class="closearrows"></a>
+
+    <!-- OVERLAY CONTENT -->
+
+    <div class="overlay-content">
+        <a href="home.html" onclick="closeNav()">Dagens</a>
+        <br>
+        <a href="semester.html" onclick="closeNav()">1. Semester</a>
+        <br>
+        <a href="afleveringer.html" onclick="closeNav()">Afleveringer</a>
+        <br>
+        <a href="#" onclick="closeNav()">Beskeder</a>
+        <br>
+        <a href="praktiskinfo.html" onclick="closeNav()">Praktisk</a>
+    </div>
+
+</div>
+
+
 <header>
     <div class="home">
         <div class="container1">
-            <img src="images/menu1.png" class="menu">
-            <img src="images/kea1.png" class="kea">
-            <img src="images/noti1.png" class="notifikationer">
-            <img src="images/47683649_430727971092062_5788622381698252800_n.png" class="profil">
+            <img src="images/menu1.png" alt="Menu" class="menu" onclick="openNav()">
+            <img src="images/kea1.png" alt="KEA logo" class="kea">
+            <img src="images/noti1.png" alt="Notifikationer" class="notifikationer">
+            <img src="images/dame.png" alt="Profilbillede" class="profil">
         </div>
     </div>
 </header>
@@ -41,7 +66,7 @@
             <tr>
                 <th>
                     <h1>Opslag</h1>
-                    <img src="images/47683649_430727971092062_5788622381698252800_n.png" alt="profilbillede" class="billede">
+                    <img src="images/dame.png" alt="profilbillede" class="billede">
                     <h2>Birgitte Heide kl. 08:36</h2>
                     <p> Lokale Merkur skal anvendes til kursus i dag og kan derfor ikke anvendes til til gruppearbejde efter kl. 13.</p>
                 </th>
@@ -108,6 +133,7 @@
 
     </main>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
