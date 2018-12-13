@@ -12,6 +12,15 @@ header {
     min-width: 350px;
 }
 
+.hide {
+    visibility: hidden;
+}
+
+.blur {
+    filter: blur(2px) brightness(90%);
+}
+
+
 /* NAVIGATION */
 
 .overlay {
@@ -118,8 +127,9 @@ p {
     border: 3px solid #4C374B;
     width: 360px;
     height: 150px;
-    top: 250px;
-    z-index: 1;
+    top: 68vw;
+    left: 20vw;
+    z-index: 3;
 }
 
 .box2,
@@ -149,9 +159,10 @@ td {
 .besked {
     position: absolute;
     top: 21.8rem;
-    left: 21.5rem;
+    left: 21rem;
     width: 1rem;
     height: auto;
+    z-index: 2;
 }
 
 hr {

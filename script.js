@@ -9,17 +9,30 @@ function closeNav() {
 }
 
 
-/*function showHome() {
+function showHome() {
+    console.log("showHome");
 
-    document.querySelector("besked").classList.add("hide");
-    document.querySelector("besked").addEventListener("click", clickHome);
+
+    document.querySelector(".lektie").classList.add("hide");
+    document.querySelector(".ugeplan").classList.remove("blur");
+    document.querySelector(".dagens_skema").classList.remove("blur");
+    document.querySelector(".besked").addEventListener("mousedown", showBesked);
 }
 
-function clickHome() {
+function showBesked() {
+    console.log("showBesked");
 
+    document.querySelector(".lektie").classList.remove("hide");
+    document.querySelector(".ugeplan").classList.add("blur");
+    document.querySelector(".dagens_skema").classList.add("blur");
+    document.querySelector(".lektie").addEventListener("mousedown", closeBesked);
 
-    document.querySelector("homecontainer").classList.add("blur");
+}
 
-    document.querySelector("besked").addEventListener("click", showHome);
+function closeBesked() {
+    console.log("closeBesked");
 
-}*/
+    //    document.querySelector("#homecontainer").classList.remove("blur");
+    document.querySelector(".lektie").addEventListener("mousedown", showHome);
+
+}
