@@ -47,7 +47,7 @@
       height: 4em;
       position: fixed;
       z-index: 20;
-      margin-top: -1.35em;
+      margin-top: -11.05em;
   }
 
   /* NAVIGATION */
@@ -134,7 +134,7 @@
   }
 
   .semester {
-
+      padding-top: 3em;
       text-align: center;
   }
 
