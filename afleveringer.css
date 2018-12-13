@@ -35,9 +35,14 @@ header {
 
 .profil {
     position: absolute;
+<<<<<<< HEAD
+    left: 20rem;
+    width: 3rem;
+=======
     top: 0.5em;
     right: 0.6em;
     width: 3em;
+>>>>>>> origin/master
 }
 
 .container1 {
@@ -55,8 +60,6 @@ header {
 p {
     font-family: arial;
     text-align: center;
-    height: 50px;
-    width:
 }
 
 
@@ -69,18 +72,38 @@ p {
     background-color: #4C374B;
     height: 30px;
     width: 75%;
+    display: inline-block;
 }
 
 .procent {
-    position: absolute;
-    top: 32.5vw;
-    left: 85vw;
+    display: inline-block;
+    height: 30px;
+    width: 23%;
 }
 
-.text {
-    position: absolute;
-    top: 25vw;
-    left: vw;
+.text {}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #4C374B;
+    text-align: left;
+    padding: 8px;
+    background-color: #D6CDD5;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+.procenttegn {
+    padding: 0px;
 }
 
 
