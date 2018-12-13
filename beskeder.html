@@ -10,52 +10,73 @@
 
 
 <body>
-
     <header>
+        <!-- NAVIGATION -->
+
+        <div id="myNav" class="overlay">
+
+            <img src="images/kea1red.png" class="kea">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/menuclose.png" class="closearrows"></a>
+
+            <!-- OVERLAY CONTENT -->
+
+            <div class="overlay-content">
+                <a href="home.html" onclick="closeNav()">Dagens</a>
+                <br>
+                <a href="semester.html" onclick="closeNav()">1. Semester</a>
+                <br>
+                <a href="afleveringer.html" onclick="closeNav()">Afleveringer</a>
+                <br>
+                <a href="beskeder.html" onclick="closeNav()">Beskeder</a>
+                <br>
+                <a href="praktiskinfo.html" onclick="closeNav()">Praktisk</a>
+            </div>
+
+        </div>
+
         <div class="home">
             <div class="container1">
-                <img src="images/dobbeltpil.png" alt="pil" class="menu">
-                <img src="images/kealogo.png" alt="logo" class="kea">
-                <img src="images/notifikationer.png" alt="notifikationer" class="notifikationer">
-                <img src="images/billede2.png" alt="billede" class="profil">
+                <img src="images/menu1.png" alt="Menu" class="menu" onclick="openNav()">
+                <img src="images/kea1.png" alt="KEA logo" class="kea">
+                <img src="images/noti1.png" alt="Notifikationer" class="notifikationer">
+                <img src="images/dame.png" alt="Profilbillede" class="profil">
+
             </div>
         </div>
     </header>
 
-    <h1>Beskeder</h1>
+    <main class="homecontainer">
+        <h1>Beskeder</h1>
 
-    <div id="boks1" class="boksinfobeskeder">
-        <h3>Ny besked </h3>
-        <div class="Billede"><img src="images/pil.png" alt="Pil" class="Pil"></div>
-    </div>
-    <div id="boks2" class="boksinfobeskeder">
-        <h3>Indbakke </h3>
-        <div class="Billede"><img src="images/pil.png" alt="Pil" class="Pil"></div>
-    </div>
-    <div id="boks3" class="boksinfobeskeder">
-        <h3>Ulæste beskeder </h3>
-        <div class="Billede"><img src="images/pil.png" alt="Pil" class="Pil"></div>
-    </div>
-    <div id="boks4" class="boksinfobeskeder">
-        <h3>Sendte beskeder </h3>
-        <div class="Billede"><img src="images/pil.png" alt="Pil" class="Pil"></div>
-    </div>
-    <div id="boks5" class="boksinfobeskeder">
-        <h3>Slettede beskeder </h3>
-        <div class="Billede"><img src="images/pil.png" alt="Pil" class="Pil"></div>
-    </div>
+        <div id="boks1" class="boksinfobeskeder">
+            <h3>Ny besked </h3>
+            <div class="Billede"><img src="images/pil.png" alt="Pil" class="Pil"></div>
+        </div>
+        <div id="boks2" class="boksinfobeskeder">
+            <h3>Indbakke </h3>
+            <div class="Billede"><img src="images/pil.png" alt="Pil" class="Pil"></div>
+        </div>
+        <div id="boks3" class="boksinfobeskeder">
+            <h3>Ulæste beskeder </h3>
+            <div class="Billede"><img src="images/pil.png" alt="Pil" class="Pil"></div>
+        </div>
+        <div id="boks4" class="boksinfobeskeder">
+            <h3>Sendte beskeder </h3>
+            <div class="Billede"><img src="images/pil.png" alt="Pil" class="Pil"></div>
+        </div>
+        <div id="boks5" class="boksinfobeskeder">
+            <h3>Slettede beskeder </h3>
+            <div class="Billede"><img src="images/pil.png" alt="Pil" class="Pil"></div>
+        </div>
 
-    <div id="boks6" class="boksinfobeskeder">
-        <h3>Kladder </h3>
-        <div class="Billede"><img src="images/pil.png" alt="Pil" class="Pil"></div>
-    </div>
+        <div id="boks6" class="boksinfobeskeder">
+            <h3>Kladder </h3>
+            <div class="Billede"><img src="images/pil.png" alt="Pil" class="Pil"></div>
+        </div>
+    </main>
 
 
-
-
-    <div class="footer">
-        <p>https://kea.dk/</p>
-    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
