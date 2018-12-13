@@ -2,6 +2,7 @@
   body {
       margin: 0;
       min-width: 350px;
+      font-family: 'Arial', sans-serif;
   }
 
   html {
@@ -123,14 +124,14 @@
       border-left: 2px solid black;
       height: 2rem;
       position: absolute;
-      left: 13.8vw;
+      left: 12.2vw;
   }
 
   .vl1 {
       border-left: 2px solid black;
       height: 2rem;
       position: absolute;
-      left: 61.6vw;
+      left: 62.2vw;
   }
 
   .semester {
@@ -153,8 +154,9 @@
 
   .grund {
       position: absolute;
-      left: 14.5vw;
+      left: 24vw;
       top: 0;
+
   }
 
   .ind {

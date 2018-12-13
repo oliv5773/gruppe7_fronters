@@ -1,6 +1,7 @@
 body {
     margin: 0;
     min-width: 350px;
+    font-family: 'Arial', sans-serif;
 }
 
 html {
@@ -114,11 +115,6 @@ th {
 
 .link {
     text-decoration: underline;
-    font-family: arial;
-}
-
-.procenttegn {
-    padding: 0px;
     font-family: arial;
 }
 

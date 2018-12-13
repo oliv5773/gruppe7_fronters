@@ -127,13 +127,18 @@ h1 {
 
 }
 
+
+.overskrift {
+    margin-top: 5em;
+}
+
 .container1 {
     background-color: #EA847C;
     width: 100%;
     height: 4em;
     position: fixed;
     z-index: 20;
-    margin-top: -1.35em;
+    margin-top: -7.5em;
 
 }
 
