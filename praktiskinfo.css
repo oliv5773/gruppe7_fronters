@@ -25,6 +25,7 @@ header {
     background-color: rgba(0, 0, 0, 0.95);
     overflow-x: hidden;
     transition: 0.5s ease;
+    z-index: 30;
 }
 
 /* POSITION THE CONTENT INSIDE THE OVERLAY */
@@ -144,4 +145,7 @@ h1 {
     background-color: #EA847C;
     width: 100%;
     height: 4em;
+    position: fixed;
+    z-index: 20;
+    margin-top: -1em;
 }
