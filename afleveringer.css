@@ -11,6 +11,21 @@ header {
     min-width: 350px;
 }
 
+.container1 {
+    background-color: #EA847C;
+    width: 100%;
+    height: 4em;
+    position: fixed;
+    z-index: 20;
+
+}
+
+
+.Pil {
+    width: 100%;
+}
+
+
 .menu {
     position: absolute;
     top: 1.1em;
@@ -35,23 +50,14 @@ header {
 
 .profil {
     position: absolute;
-<<<<<<< HEAD
-    left: 20rem;
-    width: 3rem;
-=======
     top: 0.5em;
     right: 0.6em;
     width: 3em;
->>>>>>> origin/master
 }
 
-.container1 {
-    background-color: #EA847C;
-    width: 100%;
-    height: 4em;
-    position: fixed;
-    z-index: 20;
-    margin-top: -1.35em;
+
+.overskrift {
+    padding-top: 12%;
 }
 
 /**************Header*******************/
